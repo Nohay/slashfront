@@ -247,6 +247,18 @@ function Freelancers({ media }) {
       url: 'https://intelliance.ai',
       photo: '/images/photos/nakamoto.png',
     },
+    {
+      id: 17,
+      name: 'Nicolas',
+      pseudonym: 'nohay',
+      description:
+        'Dev Newby',
+      skills: [
+        'Dead Language',
+      ],
+      github: 'https://github.com/nohay',
+      photo: '/images/photos/nakamoto.png',
+    },
   ]
 
   return (
