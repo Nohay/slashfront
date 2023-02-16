@@ -6,6 +6,8 @@ import Home from './components/pages/Home'
 import Process from './components/pages/Process'
 import Services from './components/pages/Services'
 import Freelancers from './components/pages/Freelancers'
+import Portfolio from './components/pages/Portfolio'
+import Page from './components/pages/Page'
 import Contact from './components/pages/Contact'
 
 export default function App() {
@@ -24,6 +26,12 @@ export default function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route exact path="/page">
+            <Page />
           </Route>
           <Route exact path="/">
             <Home />
