@@ -45,10 +45,6 @@ function Page({ media }) {
               </p>
             </Grid>
             <PriceIncr 
-                price
-                currency
-                delay
-                increaseBy
             />
           </Grid>
         </Container>
